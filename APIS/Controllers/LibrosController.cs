@@ -51,6 +51,7 @@ namespace APIS.Controllers
             libroBuscado.Editorial = actualizarLibro?.Editorial;
             libroBuscado.ISBN = actualizarLibro?.ISBN;
             libroBuscado.Imagen = actualizarLibro?.Imagen;
+            libroBuscado.Stock = actualizarLibro?.Stock;
 
             int result = context.SaveChanges();
 

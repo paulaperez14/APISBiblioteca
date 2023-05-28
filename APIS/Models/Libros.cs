@@ -13,5 +13,6 @@ namespace APIS.Models
         public int Categorias_Codigo { get; set; }
         public string ISBN { get; set; }
         public string Imagen { get; set; }
+        public string Stock { get; set; }
     }
 }
